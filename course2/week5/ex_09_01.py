@@ -5,7 +5,7 @@
 # can use the in operator as a fast way to check whether a string is in the
 # dictionary.
 
-handle = open('../files/words.txt')
+handle = open('../../files/words.txt')
 
 dwords = dict()
 for line in handle:

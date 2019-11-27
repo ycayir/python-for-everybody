@@ -12,7 +12,7 @@
 # Enter a file name: mbox-short.txt
 # {'Fri': 20, 'Thu': 6, 'Sat': 1}
 
-handle = open('../files/mbox-short.txt')
+handle = open('../../files/mbox-short.txt')
 
 counts = dict()
 # counter = 0

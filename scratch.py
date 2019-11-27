@@ -1,0 +1,12 @@
+t1 = ('a', 'b', 'c')
+t2 = ('a')
+t3 = ('a',)
+t4 = dict()
+t5 = tuple()
+
+print(type(t1))
+print(type(t2))
+print(type(t3))
+print(type(t4))
+print(type(t5))
+print('t1:', t1)
