@@ -1,12 +1,20 @@
-t1 = ('a', 'b', 'c')
-t2 = ('a')
-t3 = ('a',)
-t4 = dict()
-t5 = tuple()
+fruit = 'banana'
 
-print(type(t1))
-print(type(t2))
-print(type(t3))
-print(type(t4))
-print(type(t5))
-print('t1:', t1)
+print(dir(fruit))
+
+for function in dir(fruit):
+    print(function)
+
+help(str.capitalize)
+
+
+
+# cheeses = list()
+#
+# cheeses[0] = 'beyaz'
+# cheeses[1] = 'suzme'
+#
+# print(cheeses[1], 'peynir')
+#
+# print(type(cheeses))
+# print(type(cheeses[1]))
