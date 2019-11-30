@@ -12,8 +12,7 @@ def middle(t):
     return None
 
 t = [1,2,3,4,5,6]
-
-# chop(t)
-# print(t)
-
-print(middle(t))
+print('t:', t)
+print('chop:', chop(t))
+print('t:', t)
+print('middle:', middle(t))

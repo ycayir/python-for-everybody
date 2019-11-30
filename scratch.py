@@ -1,20 +1,8 @@
-fruit = 'banana'
+d =dict()
+d['one'] = '1'
+d['two'] = '2'
 
-print(dir(fruit))
+print('d', d)
 
-for function in dir(fruit):
-    print(function)
-
-help(str.capitalize)
-
-
-
-# cheeses = list()
-#
-# cheeses[0] = 'beyaz'
-# cheeses[1] = 'suzme'
-#
-# print(cheeses[1], 'peynir')
-#
-# print(type(cheeses))
-# print(type(cheeses[1]))
+for i in d:
+    print(i, ':', d[i])
